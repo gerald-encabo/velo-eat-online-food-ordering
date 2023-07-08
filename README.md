@@ -1,6 +1,6 @@
-## VeloPro Online Food Ordering
+## Velo Eat Online Food Ordering
  
-VeloPro is a MERN stack application for online food ordering and delivery with a variety of food of choice.
+Velo Eat is a TypeScript MERN stack application for online food ordering and delivery with a variety of food of choice.
 
 #### Front-end: <br/>
 The front-end is to demostrate Redux Toolkit and React features including hook, icons, paginate, carousel, bootstrap and router. The page is also responsive on all devices and work well with different browsers.<br/>
