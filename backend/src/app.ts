@@ -20,11 +20,11 @@ app.get("/api/tester", (req: Request, res: Response) => {
 })
 
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.join(__dirname, '../frontend/public')));
+    app.use(express.static(path.join(__dirname, '../frontend')));
   
     app.get('*', (req, res) =>
       res.sendFile(
-        path.resolve(__dirname, '../frontend/public/index.html')
+        path.resolve(__dirname, '../frontend/index.html')
       )
     )
 } else {
