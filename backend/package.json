@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/config/db.ts",
+  "main": "src/config/db.ts",
   "scripts": {
     "dev": "nodemon src/config/db.ts",
     "lint": "eslint . --ext .ts",
