@@ -21,7 +21,7 @@ Username: admin@gmail.com<br/>
 Password: admin
 
 #### Live Site: 
-https://velopro-online-food-ordering.vercel.app/home
+https://velo-eat-online-food-ordering.vercel.app
 
 #### Main Page Display:
 ![asdadad](https://user-images.githubusercontent.com/15988182/225385805-b4296c50-5df5-4067-afb3-c812d174e5d5.JPG)
