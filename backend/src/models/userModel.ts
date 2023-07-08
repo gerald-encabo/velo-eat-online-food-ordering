@@ -1,4 +1,3 @@
-
 import { InferSchemaType, Schema, model } from "mongoose";
 import isEmail from 'validator/lib/isEmail';
 
