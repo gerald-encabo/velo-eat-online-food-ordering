@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Velo Eat Online Food Delivery",
   "main": "src/config/db.ts",
   "scripts": {
     "dev": "nodemon src/config/db.ts",
