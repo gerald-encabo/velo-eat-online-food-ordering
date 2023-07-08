@@ -2,9 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Velo Eat Online Food Delivery",
-  "main": "src/config/db.ts",
+  "main": "dist/server.js",
   "scripts": {
-    "dev": "nodemon src/config/db.ts",
+    "dev": "nodemon src/server.ts",
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
