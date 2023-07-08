@@ -1,0 +1,9 @@
+@import '@/styles/colors.scss';
+
+.banner-section {
+    background: linear-gradient($senary, $senary), url('../assets/images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0px;
+}

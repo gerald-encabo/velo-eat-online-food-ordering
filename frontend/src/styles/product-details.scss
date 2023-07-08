@@ -1,0 +1,163 @@
+@import '@/styles/colors.scss';
+@import '@/styles/media-queries.scss';
+
+.food-details {
+    &-single_product_content {
+        padding-left: 50px;
+    }
+
+    &-product_price {
+        display: flex;
+        align-items: center;
+        column-gap: 1rem;
+        margin-bottom: 0;
+    }
+
+    &-product_price span {
+        font-size: 2rem;
+    }
+
+    &-category {
+        font-weight: 600;
+        color: $tertiary;
+        display: flex;
+        align-items: center;
+        column-gap: 1rem;
+        margin-top: 10px;
+    }
+
+    &-category span {
+        padding: 5px 10px;
+        background: $secondary;
+        color: $tertiary;
+        border-radius: 5px;
+    }
+
+    &-tabs {
+        border-bottom: 1px solid $secondary;
+    }
+
+    &-tabs h6 {
+        cursor: pointer;
+    }
+
+    &-tab_content {
+        padding: 30px 0px;
+    }
+
+    &-tab_content p {
+        line-height: 30px;
+        color:$tertiary;
+    }
+
+    &-tab_active {
+        color: $primary;
+    }
+
+    &-form {
+        width: 60%;
+        margin: 0 auto;
+        background: #fde4e4;
+        padding: 20px;
+    }
+
+    &-form_group {
+        margin-bottom: 30px;
+    }
+
+    &-form_group input, 
+    &-form_group textarea {
+        width: 100%;
+        padding: 4px 0 4px 8px;
+        background: transparent;
+        padding: 6px;
+        border: none;
+        border-bottom: 1px solid $tertiary;
+        outline: none;
+    }
+
+    &-user_name {
+        font-weight: 600;
+        color: $tertiary;
+    }
+
+    &-user_email {
+        font-size: .8rem;
+    }
+
+    &-feedback_text {
+        color: $tertiary;
+    }
+
+    &-img_item {
+        cursor: pointer;
+    }
+
+    &-related_product_title {
+        font-size: 1.4rem;
+    }
+
+    &-testimonial_review {
+        padding: 50px 0;
+    }
+}
+
+@include tablet-devices {
+    .food-details {
+        &-product_title {
+            font-size: 1.2rem;
+        }
+
+        &-product_price, 
+        &-product_price span  {
+            font-size: 1rem;
+        }
+
+        &-category, 
+        &-category span {
+            font-size: 0.8rem !important;
+        }
+
+        &-tabs {
+            margin-top: 30px;
+        }
+
+        &-tabs h6 {
+            font-size: 0.9rem;
+        }
+
+        &-tab_content p,
+        &-user_name,
+        &-feedback_text  {
+            font-size: 0.8rem;
+        }
+
+        &-user_email {
+            font-size: 0.7rem;
+        }
+
+        &-related_product_title {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@include mobile-devices { 
+    .food-details {
+        &-product_images,
+        &-product_images &-img_item {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-product_main_img {
+            margin-bottom: 20px;
+        }
+
+        &-form {
+            width: 100%;
+        }
+    }
+}

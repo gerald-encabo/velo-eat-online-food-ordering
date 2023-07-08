@@ -1,0 +1,61 @@
+@import '@/styles/colors.scss';
+@import '@/styles/media-queries.scss';
+
+.all-foods {
+    &-search_widget, &-sorting_widget select {
+        border: 1px solid $secondary;
+        border-radius: 5px;
+        cursor: pointer;
+        overflow: hidden;
+        width: 50%;
+    }
+
+    &-sorting_widget select {
+        padding: 7px;
+    }
+
+    &-search_widget input {
+        border: none;
+        width: 92%;
+        padding: 7px 7px 7px 13px;
+    }
+
+    &-search_widget input:focus {
+        outline: none;
+    }
+
+    &-search_widget span {
+        margin: 0 10px;
+    }
+}
+
+@include tablet-devices {
+    .all-foods {
+        &-search_widget,
+        &-sorting_widget select {
+            width: 80% !important;
+        }
+    }
+}
+
+@include mobile-devices { 
+    .all-foods {
+        &-search_widget,
+        &-sorting_widget select {
+            width: 100% !important;
+        }
+
+        &-search_widget {
+            margin-bottom: 20px;
+        }
+
+        &-search_widget input,
+        &-sorting_widget select {
+            font-size: .9rem;
+        }
+
+        &-search_widget span {
+            margin: 0 18px;
+        }
+    }
+}

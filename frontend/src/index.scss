@@ -1,0 +1,73 @@
+@import '@/styles/colors.scss';
+@import '@/styles/media-queries.scss';
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+
+/* Reset Default Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* Remove scrollbar in every page */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+      display: none;
+  }
+}
+
+/* Base Style */
+body {
+  background: $quinary !important;
+  font-family: "Istok Web", sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "RocknRoll One", sans-serif !important;
+}
+
+a {
+  text-decoration: none !important;;
+  color: unset;
+}
+
+h1, h2 {
+  font-size: 2.1rem !important;
+  font-weight: 600 !important;
+  color: $tertiary !important;
+}
+
+section {
+  padding: 40px 0px;
+}
+
+.universal_btn {
+  border: none;
+  padding: 7px 25px;
+  background: $primary;
+  color: $light;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.universal_btn:hover {
+  background: $tertiary;
+}
+
+@include tablet-devices {
+  section {
+    padding: 20px 0px;
+  }
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .universal_btn {
+    padding: 5px 20px;
+    font-size: 0.9rem;
+  }
+}

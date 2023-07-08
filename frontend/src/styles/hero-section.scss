@@ -1,0 +1,104 @@
+@import '@/styles/colors.scss';
+@import '@/styles/media-queries.scss';
+
+.home { 
+    &-hero_content {
+        padding-top: 50px;
+    }
+
+    &-hero_img {
+        margin-top: 30px;
+    }
+
+    &-hero_title {
+        font-size: 2.5rem;
+        line-height: 55px;
+    }
+
+    &-hero_title span {
+        color: $primary;
+    }
+
+    &-hero_content p {
+        font-size: 1rem;
+        line-height: 30px;
+        color: $quaternary;
+    }
+
+    &-hero_btns button {
+        border: none;
+        outline: none;
+        padding: 7px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    &-order_btn {
+        background: $primary;
+        align-items: center;
+        display: flex;
+        color: $light;
+    }
+
+    &-order_btn a {
+        color: $light;
+    }
+
+    &-order_btn a:hover {
+        color: $light;
+    }
+
+    &-all_foods_btn {
+        background: transparent;
+        border: 1px solid $primary !important;
+        transition: .3s;
+    }
+
+    &-order_btn:hover {
+        background: $tertiary;
+    }
+
+    &-all_foods_btn a {
+        color: $primary;
+    }
+
+    &-all_foods_btn a:hover,
+    &-all_foods_btn a:active,
+    &-all_foods_btn a:focus {
+        color: $primary;
+    }
+
+    &-hero_service p {
+        color: $tertiary;
+        font-weight: 600;
+        font-size: .9rem;
+    }
+
+    &-shipping_icon {
+        padding: 8px;
+        background: #e83c16;
+        color: #FFF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+}
+
+
+@include tablet-devices {
+    .home { 
+        &-hero_content {
+            padding-top: 20px;
+        }
+    }
+}
+
+@include mobile-devices {
+    .home { 
+        &-hero_img {
+            margin-top: 0px;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@import '@/styles/colors.scss';
+@import '@/styles/media-queries.scss';
+
+.checkout {
+    &-bill {
+        background: $secondary;
+        padding: 30px;
+    }
+    
+    &-total {
+        border-top: 2px solid $dark;
+        padding-top: 10px;
+    }
+
+    &-form {
+        width: 80%;
+        background: $secondary;
+        padding: 20px;
+    }
+
+    &-form_group {
+        margin-bottom: 30px;
+    }
+
+    &-form_group input, 
+    &-form_group textarea {
+        width: 100%;
+        padding: 4px 0 4px 8px;
+        background: transparent;
+        padding: 6px;
+        border: none;
+        border-bottom: 1px solid $tertiary;
+        outline: none;
+    }
+}
+
+@include tablet-devices {
+    .checkout {
+        &-bill h6 {
+            font-size: 0.9rem;
+        }
+
+        &-form {
+            width: 100% !important;
+            margin-top: 30px;
+        }
+    
+        &-form_group input::placeholder, 
+        &-form_group textarea::placeholder {
+            font-size: 0.8rem;
+        }
+    }
+}

@@ -1,0 +1,164 @@
+@import '@/styles/colors.scss';
+@import '@/styles/media-queries.scss';
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: $secondary;
+
+    &-logo_icon {
+        font-size: 50px;
+        color: $primary;
+        margin-bottom: 10px;
+    }
+
+    &-logo h5 {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    &-logo h5 span {
+        font-style: italic;
+        color: $primary;
+    }
+
+    &-logo p {
+        font-size: .9rem;
+        color: $tertiary;
+        line-height: 28px;
+    }
+
+    &-delivery_time_item {
+        background: transparent !important;
+    }
+
+    &-delivery_time_item span {
+        font-weight: 600;
+        font-size: 1rem;
+        color: $tertiary;
+        background: transparent;
+    }
+
+    &-delivery_time_item p {
+        color: $tertiary;
+    }
+
+    &-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: $tertiary;
+    }
+
+    &-newsletter {
+        padding: 5px 10px;
+        border: 1px solid $tertiary;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    &-newsletter input {
+        background: transparent;
+        border: none;
+        outline: none;
+        width: 150px;
+    }
+
+    &-newsletter input:focus {
+        outline: none;
+    }
+
+    &-newsletter span {
+        background: $primary;
+        padding: 8px 12px;
+        border-radius: 5px;
+        color: $light;
+        display: flex;
+        justify-content: center;
+    }
+
+    &-newsletter span:hover {
+        background: $tertiary;
+    }
+
+    &-newsletter span i {
+        background: $light;
+    }
+
+    &-newsletter input::placeholder {
+        color: $tertiary;
+    }
+
+    &-social_links {
+        justify-content: flex-end;
+    }
+
+    &-social_links span a {
+        padding: 10px 10px;
+        border-radius: 50%;
+        background: $primary;
+        color: $light;
+        display: flex;
+        justify-content: center;
+    }
+
+    &-social_links span a:hover { 
+        background: $tertiary;
+    }
+
+    &-copyright_text {
+        font-weight: 600;
+        color: $dark;
+        display: flex;
+        align-items: center;
+        padding: 8px 0px;
+        font-size: 1rem;
+    }
+}
+
+@include tablet-devices {
+    .footer {        
+        padding-top: 40px;
+        &-logo_icon {
+            font-size: 40px;
+        }
+
+        &-title,
+        &-delivery_time_item span {
+            font-size: 0.9rem;
+        }
+
+        &-delivery_time_item p {
+            font-size: 0.8rem;
+            margin-bottom: 0;
+        }
+        
+        &-newsletter input {
+            padding: 5px;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@include mobile-devices {
+    .footer {
+        padding-top: 30px;
+
+        &-copyright_text,
+        &-social_links {       
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-social_links p {
+            font-size: 0.8rem;
+        }
+
+        &-social_links span {
+            padding: 0 5px;
+        }
+    }
+}

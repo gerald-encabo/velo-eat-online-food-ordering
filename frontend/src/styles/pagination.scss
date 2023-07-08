@@ -1,0 +1,32 @@
+@import '@/styles/colors.scss';
+
+.all-foods {
+    &-pagination_btns {
+        width: 80%;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: .5rem;
+        list-style: none;
+        color: $light;
+    }
+
+    &-pagination_btns a {
+        padding: 5px 10px;
+        background: $tertiary;
+        color: $light;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 5px 0;
+        cursor: pointer;
+    }
+
+    &-pagination_btns a:hover {
+        color: $light;
+        background: $primary;
+    }
+}

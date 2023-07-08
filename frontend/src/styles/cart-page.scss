@@ -1,0 +1,46 @@
+@import '@/styles/colors.scss';
+@import '@/styles/media-queries.scss';
+
+.table > thead {
+    border-bottom: 2px solid $dark;
+} 
+
+tbody {
+    margin: 0 auto;
+}
+
+th {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.cart {
+    &-img_box {
+        width: 80px;
+    }
+
+    &-img_box img { 
+        width: 100%;
+    }
+
+    &-item_del {
+        cursor: pointer;
+    }
+
+    &-page_btn button a,
+    &-page_btn button a:hover {
+        cursor: pointer;
+        color: $light;
+    }
+
+    &-subtotal {
+        color: $primary;
+        font-size: 1.5rem;
+    }
+}
+
+@include tablet-devices {
+    th, td {
+        font-size: 0.9rem;
+    }
+}

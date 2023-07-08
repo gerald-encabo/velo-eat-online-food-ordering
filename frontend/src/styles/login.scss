@@ -1,0 +1,47 @@
+@import '@/styles/colors.scss';
+@import '@/styles/media-queries.scss';
+.login, .register {
+    &-form {
+        width: 60%;
+        margin: auto;
+        background: $secondary;
+        padding: 20px;
+    }
+    
+    &-form_group {
+        margin-bottom: 30px;
+    }
+
+    &-form_group input, 
+    &-form_group textarea {
+        width: 100%;
+        padding: 4px 0 4px 8px;
+        background: transparent;
+        padding: 6px;
+        border: none;
+        border-bottom: 1px solid $tertiary;
+        outline: none;
+    }
+
+    &-form_group button {
+        font-size: 1rem;
+    }
+
+    &-form_link:hover {
+        text-decoration: underline;
+    }
+}
+
+@include tablet-devices {
+    .login, .register {
+        &-form {
+            width: 100% !important;
+            margin-top: 50px;
+        }
+
+        &-form_group input::placeholder, 
+        &-form_group textarea::placeholder {
+            font-size: 0.9rem;
+        }
+    }
+}
