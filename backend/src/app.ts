@@ -14,23 +14,23 @@ app.use(morgan("dev"))
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use("/api/users", userRoutes);
+app.use("/users", userRoutes);
 
 app.get("/api/tester", (req: Request, res: Response) => {
     res.send("Tester API!");
 })
 
-// if (env.NODE_ENV === 'production') {
-//     app.use(express.static(path.join(__dirname, '../../frontend')));
+if (env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, '../../frontend')));
   
-//     app.get('*', (req: Request, res: Response) =>
-//       res.sendFile(
-//         path.resolve(__dirname, '../../frontend/index.html')
-//       )
-//     )
-// } else {
-//     app.get('/', (req: Request, res: Response) => res.send('Please set to production'));
-// }
+    app.get('*', (req: Request, res: Response) =>
+      res.sendFile(
+        path.resolve(__dirname, '../../frontend/index.html')
+      )
+    )
+} else {
+    app.get('/', (req: Request, res: Response) => res.send('Please set to production'));
+}
 
 app.use(errorMiddleware)
 
