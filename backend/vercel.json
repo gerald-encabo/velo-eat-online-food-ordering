@@ -2,22 +2,14 @@
     "version": 2,
     "builds":[
         {
-            "src": "src/server.ts",
+            "src": "*.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
-        {
-            "src": "/robots.txt",
-            "status": 204
-        },
-        {
-            "src": "/favicon.ico",
-            "status": 204
-        },
         { 
-            "src": "/(.*)",
-            "dest": "/src/server.ts"
+            "src": "/(.*)", 
+            "dest": "/" 
         }
     ]
 }
