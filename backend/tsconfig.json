@@ -106,9 +106,9 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true, /* Skip type checking all .d.ts files. */
-    "jsx": "react",
+    "jsx": "react-jsx",
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "src/controllers/userControllers.tsx", "src/middleware/errorMiddleware.tsx", "src/models/userModel.tsx", "src/routes/userRoutes.tsx", "src/util/validateEnv.tsx", "src/app.tsx", "src/index.tsx"],
   "exclude": ["node_modules"],
   "ts-node": {
     "files": true
