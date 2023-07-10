@@ -33,7 +33,7 @@ export interface TypeAuthSlice {
     isError: boolean,
     isSuccess: boolean,
     isLoading: boolean,
-    message: string
+    message: any
 }
 
 export interface TypeCartSlice {
