@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Velo Eat Online Food Delivery",
   "main": "dist/index.js",
-
   "scripts": {
     "dev": "nodemon src/index.ts",
     "lint": "eslint . --ext .ts",
@@ -19,6 +18,7 @@
     "@types/http-errors": "^2.0.1",
     "@types/jsonwebtoken": "^9.0.2",
     "@types/morgan": "^1.9.4",
+    "@types/node": "^20.4.1",
     "@types/validator": "^13.7.17",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
