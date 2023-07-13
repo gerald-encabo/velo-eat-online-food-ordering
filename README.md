@@ -24,4 +24,4 @@ Password: admin
 https://velo-eat-online-food-ordering.vercel.app
 
 #### Main Page Display:
-![asdadad](https://user-images.githubusercontent.com/15988182/225385805-b4296c50-5df5-4067-afb3-c812d174e5d5.JPG)
+![as](https://github.com/gerald-encabo/velo-eat-online-food-ordering/assets/15988182/6e0b6896-01e8-45b7-8a41-d6faa021f31e)
