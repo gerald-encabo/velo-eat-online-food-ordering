@@ -6,6 +6,7 @@ import Spinner from "@/components/UI/spinner/Spinner"
 import Routers from "@/routes/Routers"
 import Footer from "@/components/footer/Footer"
 import Carts from "@/components/UI/cart/Carts"
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Routers />
         <Footer />
       </Suspense>
+      <Analytics />
     </>
   )
 }
