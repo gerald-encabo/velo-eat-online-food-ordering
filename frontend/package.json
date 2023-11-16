@@ -53,5 +53,10 @@
     "sass": "^1.63.6",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
