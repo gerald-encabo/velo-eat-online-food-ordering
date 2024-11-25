@@ -33,7 +33,7 @@ Technologies Used:
 <li> <strong>Moment.js:</strong> Formats dates and times elegantly.</li>
 </ul>
 
-Features:
+Features:  <br/>
 Redux Toolkit for State Management:
 <ul>
 <li>Centralized state management for:
@@ -120,7 +120,7 @@ Technology used:
 <li> <strong>bcryptjs:</strong> Library for hashing and verifying user passwords. </li>
 </ul>
 
-Features:
+Features:  <br/>
 Database Connection:
 <ul>
 <li>MongoDB is used as the database to store user details such as name, email, and password.</li>
