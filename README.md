@@ -90,7 +90,7 @@ Features:  <br/>
 ### Back-end: <br/>
 The backend focuses on user registration, login, and authentication using a RESTful API architecture. It establishes a connection to MongoDB for storing user data and generates a JSON Web Token (JWT).
 
-Overview:
+#### Overview: <br/>
 <ul>
 <li>Handle user registration, login, and logout functionalities.</li>
 <li>Manage secure token-based authentication using JSON Web Tokens (JWTs).</li>
@@ -108,7 +108,7 @@ Overview:
 </li>
 </ul>
 
-Technology used:
+#### Technology used: <br/>
 <ul>
 <li> <strong>MongoDB:</strong> Database for storing user information (name, email, hashed password) using NoSQL. </li>
 <li> <strong>JSON Web Token (JWT):</strong> Used for creating tokens to authenticate users, with an expiry of one year. </li>
@@ -122,7 +122,7 @@ Technology used:
 <li> <strong>bcryptjs:</strong> Library for hashing and verifying user passwords. </li>
 </ul>
 
-Features:  <br/>
+#### Features:  <br/>
 <ol>
 <li>Database Connection:</li>
 <ul>
@@ -161,7 +161,7 @@ Features:  <br/>
 </li>
 </ul>
 
-RESTful API Endpoints:
+<li>RESTful API Endpoints:</li>
 <ul>
 <li>POST /signup: Accepts user data (name, email, password) and creates a new user in the database.</li>
 <li>POST /signin: Accepts login credentials, validates them, and returns a JWT on success.</li>
