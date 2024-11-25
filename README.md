@@ -1,4 +1,4 @@
-## Velo Eat Online Food Ordering
+## Velo Eat - Online Food Ordering
  
 Velo Eat is a TypeScript-based MERN Stack application designed for seamless online food ordering and delivery, offering a diverse selection of cuisine options to cater to various preferences. The platform is built to deliver a robust and user-friendly experience, supported by modern front-end and back-end technologies.
 
