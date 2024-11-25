@@ -2,7 +2,7 @@
  
 Velo Eat is a TypeScript-based MERN Stack application designed for seamless online food ordering and delivery, offering a diverse selection of cuisine options to cater to various preferences. The platform is built to deliver a robust and user-friendly experience, supported by modern front-end and back-end technologies.
 
-#### Front-end: <br/>
+### Front-end: <br/>
 
 The frontend showcases a modern tech stack and is designed to demonstrate the capabilities of Redux Toolkit and React while integrating responsive UI and key features.
 
@@ -85,7 +85,7 @@ Responsive Design:
 <li>Responsive testing ensures the app works across different screen sizes and browsers.</li>
 </ul>
 
-#### Back-end: <br/>
+### Back-end: <br/>
 The backend focuses on user registration, login, and authentication using a RESTful API architecture. It establishes a connection to MongoDB for storing user data and generates a JSON Web Token (JWT).
 
 Overview:
