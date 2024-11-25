@@ -167,6 +167,7 @@ The backend focuses on user registration, login, and authentication using a REST
 <li>POST /signin: Accepts login credentials, validates them, and returns a JWT on success.</li>
 <li>POST /signout: Logs the user out by clearing or invalidating the token (optional backend handling).</li>
 </ul>
+</ol>
 
 #### Default Login Account: (creating new account is also welcome to be use)
 Username: admin@gmail.com<br/>
