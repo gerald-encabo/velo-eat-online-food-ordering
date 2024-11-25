@@ -6,7 +6,7 @@ Velo Eat is a TypeScript-based MERN Stack application designed for seamless onli
 
 The frontend showcases a modern tech stack and is designed to demonstrate the capabilities of Redux Toolkit and React while integrating responsive UI and key features.
 
-Overview:
+##### Overview:<br/>
 <ul>
 <li>Demonstrates the use of Redux Toolkit and React for state management and UI.</li>
 <li>Includes advanced features like pagination, carousels, and hooks.</li>
@@ -19,7 +19,7 @@ Overview:
 <li>Routing: React Router is used for navigation between pages.</li>
 </ul>
 
-Technologies Used:
+#### Technologies Used: <br/>
 <ul>
 <li> <strong>HTML:</strong> Structure of the application. </li>
 <li> <strong>CSS/Sass:</strong> Styling with modularity and advanced capabilities (variables, mixins, nesting). </li>
@@ -33,8 +33,8 @@ Technologies Used:
 <li> <strong>Moment.js:</strong> Formats dates and times elegantly.</li>
 </ul>
 
-Features:  <br/>
-<ol>
+#### Features: <br/>
+<ul>
 <li>Redux Toolkit for State Management:</li>
 <ul>
 <li>Centralized state management for:
@@ -85,7 +85,7 @@ Features:  <br/>
 <li>Built using Bootstrap grid system and Sass for custom styles.</li>
 <li>Responsive testing ensures the app works across different screen sizes and browsers.</li>
 </ul>
-</ol>
+</ul>
 
 ### Back-end: <br/>
 The backend focuses on user registration, login, and authentication using a RESTful API architecture. It establishes a connection to MongoDB for storing user data and generates a JSON Web Token (JWT).
@@ -123,7 +123,7 @@ The backend focuses on user registration, login, and authentication using a REST
 </ul>
 
 #### Features:  <br/>
-<ol>
+<ul>
 <li>Database Connection:</li>
 <ul>
 <li>MongoDB is used as the database to store user details such as name, email, and password.</li>
@@ -167,7 +167,7 @@ The backend focuses on user registration, login, and authentication using a REST
 <li>POST /signin: Accepts login credentials, validates them, and returns a JWT on success.</li>
 <li>POST /signout: Logs the user out by clearing or invalidating the token (optional backend handling).</li>
 </ul>
-</ol>
+</ul>
 
 #### Default Login Account: (creating new account is also welcome to be use)
 Username: admin@gmail.com<br/>
