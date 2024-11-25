@@ -34,7 +34,8 @@ Technologies Used:
 </ul>
 
 Features:  <br/>
-Redux Toolkit for State Management:
+<ol>
+<li>Redux Toolkit for State Management:</li>
 <ul>
 <li>Centralized state management for:
     <ul>
@@ -45,16 +46,16 @@ Redux Toolkit for State Management:
 </li>
 <li>Use of slices and asynchronous thunks to handle API interactions.</li>
 </ul>
-Pagination:
+<li>Pagination:</li>
 <ul>
 <li>Dynamic navigation of paginated data like food items.</li>
 <li>Example logic includes displaying a subset of items and providing navigation links for pages.</li>
 </ul>
-Carousel:
+<li>Carousel:</li>
 <ul>
 <li>Bootstrap carousel for rotating featured content such as promotions or top menu items.</li>
 </ul>
-Axios for API Calls:
+<li>Axios for API Calls:</li>
 <ul>
 <li>Simplifies communication with RESTful APIs.</li>
 <li>Example use cases:
@@ -65,12 +66,12 @@ Axios for API Calls:
 </ul>
 </li>
 </ul>
-Moment.js for Dates:
+<li>Moment.js for Dates:</li>
 <ul>
 <li>Formats timestamps, order dates, or promotion expiry dates dynamically.</li>
 <li>Example: moment(orderDate).format('MMMM Do YYYY, h:mm:ss a').</li>
 </ul>
-Routing with React Router:
+<li>Routing with React Router:</li>
 <ul>
 <li>Navigation between key pages like:</li>
 <ul>
@@ -79,11 +80,12 @@ Routing with React Router:
 <li>Menu: List of available food items with filtering and sorting.</li>
 </ul>
 </ul>
-Responsive Design:
+<li>Responsive Design:</li>
 <ul>
 <li>Built using Bootstrap grid system and Sass for custom styles.</li>
 <li>Responsive testing ensures the app works across different screen sizes and browsers.</li>
 </ul>
+</ol>
 
 ### Back-end: <br/>
 The backend focuses on user registration, login, and authentication using a RESTful API architecture. It establishes a connection to MongoDB for storing user data and generates a JSON Web Token (JWT).
@@ -121,12 +123,13 @@ Technology used:
 </ul>
 
 Features:  <br/>
-Database Connection:
+<ol>
+<li>Database Connection:</li>
 <ul>
 <li>MongoDB is used as the database to store user details such as name, email, and password.</li>
 <li>Connection to the database is established using libraries like Mongoose, which simplifies schema creation and database operations.</li>
 </ul>
-User Authentication Flow:
+<li>User Authentication Flow:</li>
 <ul>
 <li>User Registration (Signup):
 <ul>
@@ -134,7 +137,7 @@ User Authentication Flow:
 <li>Passwords are hashed using a library like bcrypt for enhanced security.</li>
 </ul>
 </li>
-<li>User Login (Signin):
+<li>User Login (Signin):</li>
 <ul>
 <li>Credentials are checked against the database.</li>
 <li>Upon successful login, a JSON Web Token (JWT) is generated and returned to the client.</li>
@@ -143,7 +146,7 @@ User Authentication Flow:
 </li>
 </ul>
 
-Session Management:
+<li>Session Management:</li>
 <ul>
 <li>JWT Tokens:
 <ul>
